@@ -14,7 +14,7 @@ $message = $_POST["message"];
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<?php require 'form.php';?>
+    
 <body>
     <p>Merci <?php echo $_POST["name"] ?> de nous avoir contacté à propos de <?php echo $_POST["object"] ?>.
 
